@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ScreenLockApp</string>
+   <string name="first_paragraph">Hello,this is a demo from my project. It is a custom app for tablets,
+   so people are not allowed to exit it but I left a backdoor to exit. The notification bar is banned by put a top layer.
+   To make the home and back button disappear, you need to add the following line at the end of /system/build.prop</string>
+      <string name="second_paragrahp">qemu.hw.mainkeys=1&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    To exit, tap 4 times within 3 seconds on the upper left corner, the exit dialog will be evoked.
+    And when the wifi or bluetooth is turned down, it will turn on automatically in 12 seconds.</string>
+     <string name="signature"> Charley Zhang</string>
+
+
+
+
+</resources>

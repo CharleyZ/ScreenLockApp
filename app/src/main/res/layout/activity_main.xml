@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/btOnBtn"
+        android:text="Turn On Bluetooth"
+        android:textSize="@dimen/button_textsize"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/btOffBtn"
+        android:text="Turn Off Bluetooth"
+        android:textSize="@dimen/button_textsize"
+        android:layout_below="@+id/btOnBtn"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/wifiOnBtn"
+        android:layout_below="@+id/btOffBtn"
+        android:layout_centerHorizontal="true"
+        android:text="Turn On Wifi"
+        android:textSize="@dimen/button_textsize"/>
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/wifiOffBtn"
+        android:layout_below="@+id/wifiOnBtn"
+        android:layout_centerHorizontal="true"
+        android:text="Turn Off Wifi"
+        android:textSize="@dimen/button_textsize"/>
+    <Button
+        android:layout_width="@dimen/button_width"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:id="@+id/startSecond"
+        android:layout_below="@id/wifiOffBtn"
+        android:layout_centerHorizontal="true"
+        android:text="Start Another Activity"
+        android:textSize="@dimen/button_textsize"/>
+
+</RelativeLayout>
